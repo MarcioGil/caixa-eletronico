@@ -1,0 +1,37 @@
+body {
+    background: #e0e7ef;
+    font-family: Arial, sans-serif;
+}
+.atm-container {
+    background: #fff;
+    max-width: 350px;
+    margin: 60px auto;
+    padding: 30px 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 16px rgba(0,0,0,0.1);
+    text-align: center;
+}
+.botoes button {
+    margin: 10px 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    background: #1976d2;
+    color: #fff;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+.botoes button:hover {
+    background: #1565c0;
+}
+.operacao {
+    margin-top: 20px;
+}
+input[type="number"] {
+    padding: 8px;
+    width: 120px;
+    margin-right: 10px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}

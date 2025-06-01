@@ -3,7 +3,7 @@ const prompt = require('prompt-sync')();
 let saldo = 1000;
 let opção;
 
-console.log("Bem vindo ao NMG!");
+console.log("Bem Vindo ao Caixa Eletrônico!");
 
 do {
     console.log("\nEscolha uma opção:");

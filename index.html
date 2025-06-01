@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Caixa Eletrônico NMG</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="atm-container">
+        <h1>Bem-vindo ao NMG!</h1>
+        <div id="mensagem"></div>
+        <div class="botoes">
+            <button onclick="consultarSaldo()">Consultar Saldo</button>
+            <button onclick="mostrarSaque()">Sacar</button>
+            <button onclick="mostrarDeposito()">Depositar</button>
+        </div>
+        <div id="operacao" class="operacao"></div>
+    </div>
+    <script src="ATM.js"></script>
+</body>
+</html>
